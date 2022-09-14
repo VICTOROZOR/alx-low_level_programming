@@ -1,9 +1,9 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
  * add - Adds two integers.
- * num1 - First integer.
- * num2 - Second integer.
+ * @num1 - First integer.
+ * @num2 - Second integer.
  *
  * Return: The result
  */
