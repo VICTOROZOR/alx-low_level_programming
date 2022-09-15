@@ -2,6 +2,7 @@
 /**
  * _islower -function for lowercase
  *Return: 0
+ *@c: the input.
  */
 int _islower(int c)
 {
