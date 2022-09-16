@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
@@ -6,7 +7,6 @@
  * @b: second input
  * Return: output of the inputs
  */
-
 int mul(int a, int b)
 {
 return (a * b);
