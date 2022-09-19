@@ -2,8 +2,8 @@
 #include "main.h"
 
 /**
- * pritn_array -prints n element of array
- * @n: array
+ * print_array -prints n element of array
+ * @a: array
  * @n: number of elements
  * Return: 0
  */
@@ -14,7 +14,7 @@ void print_array(int *a, int n)
 
 	for (inc = 0; inc < n; inc++)
 	{
-		if(inc != n - 1)
+		if (inc != n - 1)
 			printf("%d", a[inc]);
 		else
 			printf("%d", a[inc]);
