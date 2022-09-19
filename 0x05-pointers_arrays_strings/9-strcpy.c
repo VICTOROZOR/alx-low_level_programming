@@ -4,6 +4,7 @@
  * _strcpy - copy paste string
  * @dest: destination
  * @scr: source
+ *
  * Return: destination
  */
 
@@ -14,7 +15,7 @@ char *_strcpy(char *dest, char *src)
 	while (*(src + inc) != '\0')
 	{
 		*(dest + inc) = *(src + inc);
-		inc++
+		inc++;
 	}
 	*(dest + inc) = '\0';
 
