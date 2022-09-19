@@ -4,7 +4,6 @@
 /**
  * puts2 - prints every other char
  * @str: string
- * 
  * Return: 0
  */
 
